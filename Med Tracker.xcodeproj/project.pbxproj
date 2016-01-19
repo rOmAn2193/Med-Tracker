@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E462C7151C4AE9C800A4C7DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7141C4AE9C800A4C7DD /* AppDelegate.swift */; };
-		E462C7171C4AE9C800A4C7DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7161C4AE9C800A4C7DD /* ViewController.swift */; };
 		E462C71A1C4AE9C800A4C7DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462C7181C4AE9C800A4C7DD /* Main.storyboard */; };
 		E462C71D1C4AE9C800A4C7DD /* Med_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E462C71B1C4AE9C800A4C7DD /* Med_Tracker.xcdatamodeld */; };
 		E462C71F1C4AE9C800A4C7DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E462C71E1C4AE9C800A4C7DD /* Assets.xcassets */; };
 		E462C7221C4AE9C800A4C7DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E462C7201C4AE9C800A4C7DD /* LaunchScreen.storyboard */; };
 		E462C72D1C4AE9C800A4C7DD /* Med_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C72C1C4AE9C800A4C7DD /* Med_TrackerTests.swift */; };
 		E462C7381C4AE9C800A4C7DD /* Med_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7371C4AE9C800A4C7DD /* Med_TrackerUITests.swift */; };
+		E462C7471C4AEA0500A4C7DD /* Medicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7451C4AEA0500A4C7DD /* Medicine+CoreDataProperties.swift */; };
+		E462C7481C4AEA0500A4C7DD /* Medicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7461C4AEA0500A4C7DD /* Medicine.swift */; };
+		E462C74A1C4B0DD300A4C7DD /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C7491C4B0DD300A4C7DD /* MainTVC.swift */; };
+		E462C74C1C4B0DF300A4C7DD /* TrackerReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C74B1C4B0DF300A4C7DD /* TrackerReminderVC.swift */; };
+		E462C74E1C4B0E2F00A4C7DD /* AddEditMedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462C74D1C4B0E2F00A4C7DD /* AddEditMedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		E462C7111C4AE9C800A4C7DD /* Med Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Med Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E462C7141C4AE9C800A4C7DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E462C7161C4AE9C800A4C7DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E462C7191C4AE9C800A4C7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E462C71C1C4AE9C800A4C7DD /* Med_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Med_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		E462C71E1C4AE9C800A4C7DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		E462C7331C4AE9C800A4C7DD /* Med TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Med TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E462C7371C4AE9C800A4C7DD /* Med_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Med_TrackerUITests.swift; sourceTree = "<group>"; };
 		E462C7391C4AE9C800A4C7DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E462C7451C4AEA0500A4C7DD /* Medicine+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E462C7461C4AEA0500A4C7DD /* Medicine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medicine.swift; sourceTree = "<group>"; };
+		E462C7491C4B0DD300A4C7DD /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		E462C74B1C4B0DF300A4C7DD /* TrackerReminderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerReminderVC.swift; sourceTree = "<group>"; };
+		E462C74D1C4B0E2F00A4C7DD /* AddEditMedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEditMedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,8 @@
 		E462C7081C4AE9C800A4C7DD = {
 			isa = PBXGroup;
 			children = (
+				E462C7451C4AEA0500A4C7DD /* Medicine+CoreDataProperties.swift */,
+				E462C7461C4AEA0500A4C7DD /* Medicine.swift */,
 				E462C7131C4AE9C800A4C7DD /* Med Tracker */,
 				E462C72B1C4AE9C800A4C7DD /* Med TrackerTests */,
 				E462C7361C4AE9C800A4C7DD /* Med TrackerUITests */,
@@ -100,12 +110,14 @@
 			isa = PBXGroup;
 			children = (
 				E462C7141C4AE9C800A4C7DD /* AppDelegate.swift */,
-				E462C7161C4AE9C800A4C7DD /* ViewController.swift */,
 				E462C7181C4AE9C800A4C7DD /* Main.storyboard */,
 				E462C71E1C4AE9C800A4C7DD /* Assets.xcassets */,
 				E462C7201C4AE9C800A4C7DD /* LaunchScreen.storyboard */,
 				E462C7231C4AE9C800A4C7DD /* Info.plist */,
 				E462C71B1C4AE9C800A4C7DD /* Med_Tracker.xcdatamodeld */,
+				E462C7491C4B0DD300A4C7DD /* MainTVC.swift */,
+				E462C74B1C4B0DF300A4C7DD /* TrackerReminderVC.swift */,
+				E462C74D1C4B0E2F00A4C7DD /* AddEditMedVC.swift */,
 			);
 			path = "Med Tracker";
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E462C7171C4AE9C800A4C7DD /* ViewController.swift in Sources */,
+				E462C74E1C4B0E2F00A4C7DD /* AddEditMedVC.swift in Sources */,
+				E462C74A1C4B0DD300A4C7DD /* MainTVC.swift in Sources */,
 				E462C7151C4AE9C800A4C7DD /* AppDelegate.swift in Sources */,
+				E462C7481C4AEA0500A4C7DD /* Medicine.swift in Sources */,
+				E462C74C1C4B0DF300A4C7DD /* TrackerReminderVC.swift in Sources */,
 				E462C71D1C4AE9C800A4C7DD /* Med_Tracker.xcdatamodeld in Sources */,
+				E462C7471C4AEA0500A4C7DD /* Medicine+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
